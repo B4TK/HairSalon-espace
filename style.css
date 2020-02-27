@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+}
+
+ul li{
+	list-style: none;
+}
+
+a:link{
+	color: #FFF;
+}
+a:visited{
+	color: #FFF;
+} 
+a:hover{
+	color: #ABABAB;
+}
+
+/*------------------------------↑ all ↑------------------------------*/
+
+
+#main{
+	height: 100vh;
+	background-image: url("images/main_visual.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+
+}
+
+#bg_color::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+#main h1 img{
+	position:absolute;
+	top: 5%;
+	left: 5%;
+}
+
+#nav{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	display: flex;
+	justify-content: space-between; 
+	width: 400px;
+}
+#nav li {
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: 0.05em
+}
+
+#main .logo{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin: auto 0;
+	margin-left: -110px;
+}
+
+#main .scroll{
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -15px;
+}
+
+
+
+/*------------------------------↑ main visual ↑------------------------------*/
+ 
+#concept{
+	width: 950px;
+	height: 800px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #EDEDED;
+	box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+}
+
+#concept h2{
+	text-align: center;
+	color: #c99509;
+	font-size: 2.5em;
+	padding-top: 80px;
+	position: relative;
+}
+
+#concept h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px;
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #000;
+}
+
+#concept .text{
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 60px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+#concept .img{
+	margin: 50px auto;
+	margin-bottom: 0;
+	display: flex;
+	width: 830px;
+	justify-content: space-between;
+}
+
+/*------------------------------↑ concept ↑------------------------------*/
+
+
+.and_more a:link{
+	color: #000;
+}
+
+.and_more a:visited{
+	color: #000;
+}
+.and_more a:hover{
+	color: #2E2E2E;
+}
+
+.and_more{
+	margin: 0 auto;
+	margin-top: 70px;
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	border: solid 1px;
+	font-size: 1em;
+	padding: 5px 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+
+/*------------------------------↑ and more ↑------------------------------*/
+
+
+#menu{
+	width: 950px;
+	height: 800px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #EDEDED;
+	box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+}
+
+#menu h2{
+	text-align: center;
+	color: #c99509;
+	font-size: 2.5em;
+	padding-top: 80px;
+	position: relative;
+}
+
+#menu h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px;
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #000;
+}
+
+#menu .text{
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 60px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+
+#menu .menu{
+	height: 350px;
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content:space-between;
+	position: relative;
+	padding: 0 8px;
+}
+
+#menu h3{
+	width: 100px;
+	text-align: center;
+	background-color: #231815;
+	color: #FFF;
+	position: absolute;
+	z-index: 10;
+	bottom: 90px;
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding: 3px 0
+}
+ 
+#menu .menu .text{
+	text-align: left;
+	font-size: 0.6em;
+	background-color: #FFFFFF;
+	width: 230px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	padding: 25px 8px;
+	font-family: 'Noto Serif JP', serif;
+	
+}
+
+/*------------------------------↑ menu ↑------------------------------*/
+
+
+
+#staff{
+	width: 950px;
+	height: 750px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #EDEDED;
+	box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+}
+
+#staff h2{
+	text-align: center;
+	color: #c99509;
+	font-size: 2.5em;
+	padding-top: 80px;
+	position: relative;
+}
+
+#staff h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px;
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #000;
+}
+
+#staff .text{
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 60px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+#staff .staff{
+	height: 350px;
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 0 50px;
+	display: flex;
+	justify-content:space-between;
+	position: relative;
+}
+
+#staff .rubi{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+#staff .name{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#staff .and_more{
+	margin-top: -30px;
+}
+
+/*------------------------------↑ staff ↑------------------------------*/
+
+
+#gallery{
+	width: 950px;
+	height: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #101010;
+	box-shadow: 0 5px 7px rgba(0,0,0,0.5);
+}
+
+#gallery h2{
+	text-align: center;
+	color: #c99509;
+	font-size: 2.5em;
+	padding-top: 80px;
+	position: relative;
+}
+
+#gallery h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px;
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: #DDD;
+}
+
+#gallery .text{
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 60px;
+	font-family: 'Noto Serif JP', serif;
+	color: #DDD;
+}
+
+#gallery .gallery{
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#gallery .left{
+	float: left;
+}
+
+#gallery .right{
+	float: right;
+}
+
+#gallery img{
+	margin-bottom: 9px;
+}
+
+
+/*
+#gallery .gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 5px;
+}*/
+
+#gallery .and_more a:link{
+	color: #DDD;
+}
+
+#gallery .and_more a:visited{
+	color: #DDD;
+}
+#gallery .and_more a:hover{
+	color: #2E2E2E;
+}
+
+#gallery .and_more{
+	clear: both;
+	border: solid 1px #DDD;
+	overflow: hidden;
+	margin-top: 770px;
+}
+
+/*------------------------------↑ gallery ↑------------------------------*/
+
+
+
+#footer{
+	height: 300px;
+	background-color: #EDEDED;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	font-family: 'Noto Serif JP', serif;
+	text-decoration: none;
+	font-style: normal;
+}
+
+#sns{
+	padding-top: 30px;
+	width: 115px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#address{
+	line-height: 2em;
+	padding-top: 30px;
+}
+
+#copyright{
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
